@@ -1,0 +1,68 @@
+body {
+  font-family: Arial, sans-serif;
+  background-image: url("/img/1683683582010.png");
+  background-repeat: no-repeat;
+    background-position: top;
+    background-attachment:fixed;
+    background-size: 60%;
+  margin: 0;
+  padding: 20px;
+  }
+  
+  h1 {
+    background-color: #04196396;
+    color: #ffffff;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  form {
+    max-width: 400px;
+    margin: 0 auto;
+    background-color: #ffffff68;
+    padding: 20px;
+    border-radius: 4px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 8px;
+  }
+  
+  input[type="text"],
+  input[type="number"],
+  input[type="date"],  input[type="tel"], input[type="email"], select{
+    width: 100%;
+    padding: 8px;
+    border: 5px solid #cccccc76;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-bottom: 12px;
+  }
+  
+  input[type="submit"] {
+    background-color: #0ea2e2;
+    color: #ffffff7e;
+    padding: 10px 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #041863;
+  }
+  
+  input:required, select:required {
+    border-color: #0cc1ea;
+  }
+  
+  input:invalid, select:invalid {
+    border-color: #04e4b3;
+  }
+  
+  input:valid, select:valid {
+    border-color: #05a3ec;
+  }
+  
